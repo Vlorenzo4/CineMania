@@ -1,10 +1,12 @@
 const { app } = require("./src/server");
 const { dbCon } = require("./src/config/dbConfig");
 
+const PORT = process.env.PORT || 3000;
+
 const startServer = async () => {
   try {
     await dbCon();
-    app.listen(3000, () => {
+    app.listen(PORT, () => {
       console.log("Server andando en puerto 3000");
     });
   } catch (error) {
