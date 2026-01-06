@@ -1,0 +1,130 @@
+html,
+body {
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.my-navbar {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  min-height: 70px;
+}
+
+.my-navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 80px;
+}
+
+.my-navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.logo {
+  height: 150px;
+  width: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+#movies-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 80px;
+  justify-content: center;
+}
+
+.movie-card {
+  width: 280px;
+  background: #f2f2f2;
+  border-radius: 0.8rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.movie-card img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.movie-card h3 {
+  margin: 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.info-movies {
+  display: flex;
+  gap: 12px;
+  font-size: 0.7rem;
+  opacity: 0.7;
+  margin-bottom: 14px;
+  margin-left: 10px;
+}
+
+.genres {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 14px;
+  margin-left: 10px;
+}
+
+.genre-tag {
+  background: #dfdfdf;
+  color: black;
+  padding: 6px 10px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+}
+
+.bottom-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.director {
+  font-size: 0.8rem;
+  margin-left: 10px;
+}
+
+.score {
+  background: #00c853;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  margin: 10px;
+}
+
+.footer {
+  background-color: black;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 3rem;
+  color: #777;
+  font-size: 0.9rem;
+}
