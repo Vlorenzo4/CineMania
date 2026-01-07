@@ -7,7 +7,9 @@ const moviesContainer = document.getElementById("movies-container");
 
 const getData = async () => {
   try {
-    const { data } = await axios.get("https://cinemania-ebkv.onrender.com");
+    const { data } = await axios.get(
+      "https://cinemania-ebkv.onrender.com/movies"
+    );
     movieCards(data);
   } catch (error) {
     failData();

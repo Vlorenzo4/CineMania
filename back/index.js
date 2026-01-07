@@ -7,7 +7,7 @@ const startServer = async () => {
   try {
     await dbCon();
     app.listen(PORT, () => {
-      console.log("Server andando en puerto 3000");
+      console.log(`Server andando en puerto ${PORT}`);
     });
   } catch (error) {
     console.error("Error al iniciar el servidor:", error);
