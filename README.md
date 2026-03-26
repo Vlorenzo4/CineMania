@@ -1,42 +1,71 @@
-# 🎬 Movies App
+# Cinemania App
 
-Aplicación web donde los usuarios pueden cargar películas mediante un formulario y visualizarlas en tarjetas dinámicas.
+Full stack web application that allows users to add and visualize movies. Users can submit movie information through a form and see the movies displayed as dynamic cards.
 
-Cada película incluye:
+---
 
-- Nombre
-- Director
-- Duración
-- Género (ciencia ficción, terror, etc.)
-- Calificación
-- Imagen del póster
+## 🚀 Features
 
-## 🚀 Demo
+- Add movies through a form
+- Input validation for movie data
+- Display movies as dynamic cards
+- Store movie information in MongoDB
+- Full stack application (Frontend + Backend)
 
-Frontend: https://TU-LINK-DE-NETLIFY.app  
-Backend API: https://TU-LINK-DE-RENDER.onrender.com
+---
 
-## 🛠️ Tecnologías utilizadas
-
-### Frontend
-
-- HTML
-- CSS
-- Boostrap
-- JavaScript
+## 🛠 Technologies
 
 ### Backend
-
 - Node.js
-- Express
-
-### Base de datos
-
+- Express.js
 - MongoDB
 
-## ✨ Funcionalidades
+### Frontend
+- JavaScript
+- HTML
+- CSS
+- Bootstrap
 
-- Formulario para cargar películas
-- Validaciones de datos
-- Render dinámico de tarjetas
-- Persistencia de datos en base de datos
+---
+
+## ⚙️ Installation & Setup
+
+```bash
+git clone <your-repository-url>
+cd CineMania
+
+## Backend Setup
+cd back
+npm install
+
+## Environment variables
+
+Create a .env file inside the back folder.
+DB_USER=your_user
+DB_PASSWORD=your_password
+DB_CLUSTER=your_cluster
+DB_NAME=your_database
+
+MONGO_URI=your_connection_string
+
+## Run backend
+npm start
+
+## 💻 Frontend Setup
+
+The frontend is built with static HTML, CSS and JavaScript.
+To run it, open the HTML files directly in your browser:
+
+index.html
+movies.html
+addMovies.html
+
+Or use a live server extension for better experience.
+
+## 📌 Usage
+
+- Navigate to the application  
+- Add a movie using the form (title, director, duration, genre, rating, image) 
+- Submit the form
+- View movies displayed as dynamic cards
